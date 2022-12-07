@@ -18,6 +18,9 @@ const AppNavbar = () => {
           <Navbar.Brand as={Link} to='/'>
             Tap Map
           </Navbar.Brand>
+          <Navbar.Brand>
+            <a href='https://donate.stripe.com/test_aEU8xxfHB49p4Sc7ss' className='white-link' target='_blank' rel="noreferrer">Donate</a>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar'>
             <Nav className='ml-auto'>

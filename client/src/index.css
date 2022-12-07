@@ -16,3 +16,13 @@ h6 {
   font-weight: 300;
   font-style: italic;
 }
+
+.white-link {
+  color:white;
+  text-decoration: none;
+}
+
+.white-link:hover {
+  color:white;
+  text-decoration: none;
+}
