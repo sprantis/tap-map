@@ -152,7 +152,7 @@ const SearchBreweries = () => {
       <div className='container'>
         <p className='instruction-container white-text font-24'>
             {searchedBreweries.length
-              ? `VIEWING ${searchedBreweries.length} RESULTS(S):`
+              ? `VIEWING ${searchedBreweries.length} RESULT(S):`
               : 'SEARCH FOR A BREWERY TO BEGIN'}
           </p>
       </div>
