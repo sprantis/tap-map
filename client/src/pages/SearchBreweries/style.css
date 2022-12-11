@@ -1,0 +1,46 @@
+.search-field {
+  max-height: 35px;
+}
+
+.search-submit-btn {
+  max-height: 35px;
+}
+
+.font-24 {
+  font-size: 24px !important;
+}
+
+input[type="text"]
+{
+  font-size: 20px;
+  font-family: 'Chalk';
+}
+
+.ant-card-head-title {
+  font-family: 'Chalk';
+  font-size: 20px
+}
+
+h3, h2 {
+  font-family: 'Chalk';
+}
+
+.chalk {
+  font-family: 'Chalk';
+  font-size: 17px;
+}
+
+:where(.css-dev-only-do-not-override-1i536d8).ant-card-bordered {
+  border: 5px dashed #343a40;
+}
+
+.btn-txt {
+  font-size: 20px;
+  font-family: 'Chalk';
+  background-color: #b76f20;
+  color: black;
+}
+
+.btn-txt:disabled {
+  color:rgb(222, 222, 222);
+}

@@ -1,0 +1,73 @@
+.layout {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+  height: 66px;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul p, ul a, ul link {
+  margin: 0;
+  font-family: 'Chalk';
+}
+
+.header { 
+  position: 'sticky';
+  top: 0px; 
+  z-index: 1; 
+  /* width: 100%; */
+}
+
+.ant-layout-header {
+  background-color: #b76f20 !important;
+  background-image: url('../../assets/images/wood-pattern.png') !important;
+  /* background-repeat: no-repeat !important; */
+  background-size: 175% 1200% !important;
+}
+
+.header-bg {
+  background-color: #b76f20 !important;
+  background-image: url('../../assets/images/wood-pattern.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: 150% 1000% !important;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.login-tab {
+  min-height: 225px;
+}
+
+.signin-tab {
+  min-height:325px;
+}
+
+.faded-text {
+  color: rgba(0, 0, 0, 0.191);
+}
+
+:where(.css-dev-only-do-not-override-1i536d8).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected, :where(.css-dev-only-do-not-override-1i536d8).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected {
+  color: black;
+}
+
+:where(.css-dev-only-do-not-override-1i536d8).ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item-selected, :where(.css-dev-only-do-not-override-1i536d8).ant-menu-light{
+  background-color: #b76f20 !important;
+}
+
+.ant-menu, .ant-menu sub, .any-menu-vertical {
+  background-color: #b76f20 !important;
+}
+
+svg {
+  color:white;
+}
