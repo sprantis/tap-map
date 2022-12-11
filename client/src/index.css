@@ -1,6 +1,22 @@
 /* Referencing code from Module 21 */
+@font-face {
+  font-family: "Chalk";   /*Can be any text*/
+  src: local("appleberry"),
+    url("./fonts/appleberry.ttf") format("truetype");
+}
+
+html {
+  padding:0; 
+  margin:0; 
+  height:100%;
+}
+
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Chalk';
+  /* height: 100vh; */
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: #343a40;
 }
 
 h1,
@@ -17,12 +33,88 @@ h6 {
   font-style: italic;
 }
 
+.white-text {
+  color: white !important;
+}
+
 .white-link {
-  color:white;
-  text-decoration: none;
+  color:white !important;
 }
 
 .white-link:hover {
   color:white;
-  text-decoration: none;
 }
+
+.black-text {
+  color: black !important;
+}
+
+.black-link {
+  color:black !important;
+}
+
+.black-link:hover {
+  color:black;
+}
+
+.jumbotron {
+  background-color: #343a40;
+  height: 20vh;
+  width: 100%;
+  padding-top: 45px;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+/* Reference link: https://stackoverflow.com/questions/49596113/ant-design-react-bootstrap-grid-container-concept#:~:text=Antd%20doesn't%20provide%20a,create%20your%20own%20container%20class.  */
+.container {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container div {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brown-bg {
+  background-color: #b76f20 !important;
+  background-image: url('./assets/images/wood-pattern.png') !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-style {
+  margin-bottom: 15px;
+}
+
+/* not used
+.card-head-style {
+  background-color: black;
+  color: white;
+} */
+
+/* not used
+.card-body-style {
+  background-color: green;
+  color: white;
+  min-height: 275px;
+} */
+
+.instruction-container {
+  max-height: 35px;
+}
+
+/* ant-menu-submenu-vertical */
