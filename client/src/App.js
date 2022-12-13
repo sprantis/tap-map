@@ -8,6 +8,9 @@ import Navbar from './components/Navbar';
 import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
+import { Layout } from 'antd';
+const { Content, Footer } = Layout;
+
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -38,11 +41,32 @@ function App() {
       <Router>
         <>
           <Navbar />
-          <Switch>
-            <Route exact path='/' component={SearchBreweries} />
-            <Route exact path='/saved' component={SavedBreweries} />
-            <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
-          </Switch>
+          <br />
+          <br />
+          <Content style={{ height: 100 + '%' }}>
+            <Switch>
+              <Route exact path='/' component={SearchBreweries} />
+              <Route exact path='/saved' component={SavedBreweries} />
+              <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
+            </Switch>
+            <br />
+            <br />
+            <br />
+          </Content>
+          {/* Sticky footer: https://www.w3schools.com/howto/howto_css_fixed_footer.asp */}
+          <Footer
+            className='brown-bg white-text'
+            style={{
+              position: 'fixed',
+              bottom: 0,
+              width: '100%',
+              height: '4rem',
+              textAlign: 'center',
+              paddingTop: '20px',
+            }}
+          >
+            Tap Map © 2022
+          </Footer>
         </>
       </Router>
     </ApolloProvider>
