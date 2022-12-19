@@ -12,7 +12,7 @@
 * [Questions](#questions)
 
 ## Description
-Tap Map is your go-to app for locating breweries across the nation! This is a MERN-stack single-page app, combining a scalable MongoDB back end, a GraphQL API, and an Express.js and Node.js server with a React front end. This app also implements authentication with JSON Web Tokens (JWT).
+Tap Map is your go-to app for locating breweries across the nation! This is a MERN-stack single-page app, combining a scalable MongoDB back end, a GraphQL API, and an Express.js and Node.js server with a React front end that uses Ant Design for the CSS framework. This app also implements authentication with JSON Web Tokens (JWT).
 
 Third Party API Credit to [OPEN BREWERY DB.](https://www.openbrewerydb.org)
 
