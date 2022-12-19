@@ -9,6 +9,8 @@ import { useQuery, useMutation } from '@apollo/client';
 import { GET_ME } from '../../utils/queries';
 import { REMOVE_BREWERY } from '../../utils/mutations';
 import './style.css';
+import App from './rating';
+import { createRoot } from 'react-dom/client';
 
 
 const SavedBreweries = () => {
@@ -104,6 +106,11 @@ const SavedBreweries = () => {
                         <p className='chalk'>Website: N/A</p>
                       )
                     }
+                    <div id="star">
+                    (<App />)
+                    </div>
+                    
+                    
                     <Button 
                       onClick={() => handleDeleteBrewery(brewery.breweryId)}
                       className='btn-txt'
