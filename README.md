@@ -24,6 +24,8 @@ N/A
 
 ![Tap Map Screenshot](./client/src/assets/images/tap-map-app-screenshot.png)
 
+To get started, create an account. Then, click on 'Search For Breweries' and enter in a zipcode to search for businesses in that area. If you want to keep track of any breweries you find, save it and revisit your saved choices under 'Your Saved Breweries'!
+
 ## License
 [MIT](https://opensource.org/licenses/MIT)
 
